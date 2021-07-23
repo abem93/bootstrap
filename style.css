@@ -1,0 +1,91 @@
+
+
+body{
+  font-family: sans-serif;
+}
+.nav-link{
+  padding: 15px;
+  color:white;
+}
+.active a{
+  background-color: #86c1ce;
+}
+
+footer{
+  text-align: center;
+  padding: 15px;
+}
+h1, h3{
+  text-align: center;
+  color: #64aaba;
+}
+.h1, h2{
+  padding-top: 1em;
+  text-align: center;
+  line-height: 1em;
+  color: #64aaba;
+}
+.h6, p{
+  text-align: center;
+  line-height: normal;
+}
+
+.carousel{
+  margin: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 75%;
+  box-shadow: 10px 0px 20px rgb(51,51,51);
+}
+.cards{
+  display: grid;
+  grid-gap: 50px;
+  padding: 3em;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 0 5% 0 8%;
+}
+/* .card{
+  box-shadow: 0px 2px 10px rgb(51,51,51);
+} */
+.container-fluid{
+  text-align: center;
+  background-image: url(images/background.png);
+  background-size: cover;
+}
+.container-fluid h4{
+  padding-top: 1.2em;
+}
+.Amenities{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+form{
+  width: 100%;
+  padding: 15px;
+}
+button{
+  margin: 0 20% 0 20%;
+}
+.colums{
+  display: grid;
+  grid-gap: 30px;
+  padding: 3em;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 800px){
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .colums{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 580px){
+  .cards{
+    grid-template-columns: repeat(1,1fr);
+  }
+
+}
